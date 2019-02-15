@@ -110,10 +110,21 @@ then
     rm $SIMPATH_INSTALL/bin/pede
     rm $SIMPATH_INSTALL/lib/libMille.*
     rm $SIMPATH_INSTALL/include/Mille.h
-    source scripts/install_millepede.sh
-    if [ "$check" = "1" ];then
+  fi
+  source scripts/install_millepede.sh
+  if [ "$check" = "1" ];then
+    if [ ! -e Cbm_Millepede_Version ];then
       echo "$MILLEPEDE_VERSION" >> Cbm_Millepede_Version
     fi
   fi      
 fi
 
+if [ "$check" = "1" ];
+then
+  source scripts/install_eigen3.sh  
+fi
+
+if [ "$check" = "1" ];
+then
+  source scripts/install_gbl.sh  
+fi
