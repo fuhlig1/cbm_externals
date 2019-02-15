@@ -12,7 +12,7 @@ install_prefix=$SIMPATH_INSTALL
 
 checkfile=$install_prefix/lib/libVc.a
 
-if (not_there vc $checkfile);
+if (not_there Vc $checkfile);
 then
     cd $SIMPATH/basics/Vc
     mkdir build
@@ -29,7 +29,7 @@ then
 
     check_all_libraries  $install_prefix/lib
 
-    check_success vc $checkfile
+    check_success Vc $checkfile
     check=$?
 
 fi
