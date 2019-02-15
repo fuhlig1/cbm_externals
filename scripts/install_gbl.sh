@@ -21,7 +21,7 @@ then
   mkdir build
   cd build
     
-  cmake \
+  $SIMPATH_INSTALL/bin/cmake \
         -DEIGEN3_INCLUDE_DIR=$SIMPATH_INSTALL/include/eigen3 \
         -DCMAKE_INSTALL_PREFIX=$SIMPATH_INSTALL \
         -DCMAKE_CXX_COMPILER=$CXX \
