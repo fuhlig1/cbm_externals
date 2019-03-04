@@ -1,9 +1,9 @@
 #!/bin/bash
 
-export CBMEXTERNALS_VERSION=may18
+export CBMEXTERNALS_VERSION=may18p1
 
 export FAIRSOFT_LOCATION="https://github.com/FairRootGroup/FairSoft"
-export FAIRSOFT_VERSION=may18
+export FAIRSOFT_VERSION=may18p1
 
 export VC_LOCATION="https://github.com/VcDevel/Vc.git"
 export VC_TAG=1.4.1
