@@ -128,3 +128,8 @@ if [ "$check" = "1" ];
 then
   source scripts/install_gbl.sh  
 fi
+
+if [ "$check" = "1" ];
+then
+  source scripts/install_cpprestsdk.sh  
+fi

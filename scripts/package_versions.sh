@@ -17,3 +17,5 @@ export EIGEN3_VERSION=3.3.7
 export GBL_LOCATION=http://svnsrv.desy.de/public/GeneralBrokenLines/tags
 export GBL_VERSION=V02-01-05
 
+export CPPRESTSDK_LOCATION="https://github.com/Microsoft/cpprestsdk"
+export CPPRESTSDK_TAG=v2.10.10
